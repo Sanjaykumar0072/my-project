@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+
+.topbar-cont{
+    /*background-color: cadetblue;*/
+    display: flex;
+    justify-content: space-between;
+}
+.title-cont{
+    /*background-color: cornsilk;*/
+    
+}
+.nav-cont{
+    /*background-color: chocolate;*/
+    display: flex;
+    width: 10rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation-cont:hover{
+    /*background-color: cornflowerblue;*/
+    color: tomato;
+    cursor: pointer;
+
+    
+}
+.image-content{
+    width: 98vw;
+    height:80vh;
+    margin: auto;
+}
+.content-cont{
+    display: flex;
+    width: 95%;
+    text-align: center;
+}
+.similar-cont > img{
+    width: auto;
+    cursor: pointer;
+    
+}
+.similar-cont > h3{
+    font-style: italic;
+    color: red;
+}
+.similar-cont > p{
+    font-weight: bold;
+    color: cornflowerblue;
+    text-decoration: underline;
+    word-spacing: 0.1rem;
+}
+.copyright-cont{
+    background-color: black;
+    color: palegreen;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
